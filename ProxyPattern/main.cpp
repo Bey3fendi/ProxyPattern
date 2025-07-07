@@ -2,6 +2,8 @@
 #include <memory>
 
 #include "ProxyExample.h"
+
+//Basic Proxy Example
 class IPaymentService {
 public:
     virtual void PaymentOperation() = 0;
@@ -61,6 +63,8 @@ int main()
     //pps->PaymentOperation();
 }
 */
+
+//Basic Proxy Example
 
 int main() {
 
